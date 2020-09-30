@@ -1,0 +1,164 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.footer > div {
+  margin-left: auto;
+}
+
+.footer .logo1 {
+  width: 43px;
+  height: 25px;
+}
+
+  .logo1:hover {
+    transform: scale(5);
+  }
+
+.footer .logo2 {
+  width: 25px;
+  height: 25px;
+}
+
+.logo2:hover {
+  transform: scale(5);
+}
+
+.footer span {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.footer {
+  display: flex;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.isi {
+  display: flex;
+  padding: 0 100px;
+}
+
+.exp {
+  background-image: url("./assets/expansions_and_features_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 1000px;
+}
+
+.header {
+  width: 700px;
+  padding-top: 40px;
+  padding-bottom: 90px;
+  position: relative;
+  z-index: 2;
+}
+
+.bcgcolor {
+  background-color: rgba(96, 96, 96, 0.6);
+  height: 650px;
+  border: 5px solid white;
+}
+
+.dlc {
+  width: 400px;
+  padding: 0 50px;
+  padding-top: 80px;
+  position: relative;
+  z-index: 2;
+}
+
+.feature {
+  width: 500px;
+  height: 650px;
+  margin-left: 350px;
+  padding: 0 150px 0 150px;
+  border: 5px solid white;
+  background-color: rgba(96, 96, 96, 0.6);
+  position: relative;
+  z-index: 2;
+}
+
+.feature .img1 {
+  width: 500px;
+}
+
+.feature .img2 {
+  padding-top: 60px;
+  width: 500px;
+}
+
+.title {
+  background-image: url("./assets/brief_explanation_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 650px;
+}
+
+.title p {
+  color: white;
+  line-height: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0 520px;
+  position: relative;
+  z-index: 2;
+}
+
+.title img {
+  width: 500px;
+  padding-top: 130px;
+  padding-bottom: 90px;
+  position: relative;
+  z-index: 2;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  padding-top: 3px;
+  padding-right: 10px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.navbar img {
+  margin-right: auto;
+  width: 200px;
+}
+
+.navbar {
+  display: flex;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.title::after {
+  content: "";
+  background-color: rgb(0, 0, 0);
+  opacity: 0.5;
+  top: 60px;
+  left: 0;
+  bottom: 256px;
+  right: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.exp::after {
+  content: "";
+  background-color: rgb(96, 96, 96);
+  opacity: 0.5;
+  top: 713px;
+  left: 0;
+  bottom: -745px;
+  right: 0;
+  position: absolute;
+  z-index: 1;
+}

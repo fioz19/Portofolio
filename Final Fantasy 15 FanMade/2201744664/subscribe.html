@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SubscribeForm</title>
+    <link rel="stylesheet" href="subscribe.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="home.html">FINALY FANTASY XIV</a>
+      <div>
+        <div>
+            <a href="https://www.facebook.com/FinalFantasyXIV/" target="new"><img class="logo1" src="./assets/facebook.png" alt=""/> </a>
+            <a href="https://www.instagram.com/ffxiv/?hl=en" target="new"><img class="logo3" src="./assets/instagram.png" alt=""/> </a>
+            <a href="https://store.steampowered.com/app/312060/FINAL_FANTASY_XIV_Online_Free_Trial/" target="new"><img class="logo2" src="./assets/steam_footer.png" alt="" /></a>
+          </div>
+      </div>
+    </div>
+
+    <form action="home.html">
+      <h1>Subscription Form</h1>
+      <label for="name">Full Name: </label>
+      <br />
+      <input type="name" name="name" value="" placeholder="Full Name" />
+      <br />
+      <br />
+      <label for="email">E-mail : </label>
+      <br />
+      <input type="email" name="email" value="" placeholder="E-mail" />
+      <br />
+      <br />
+      <label for="Address">Address : </label>
+      <br />
+      <input type="Address" name="Address" value="" placeholder="Address" />
+      <br />
+      <br />
+      <label>Gender:</label>
+      <div class="radio">
+        <input type="radio" name="gender" value="Male" />
+        <label class="light" for="Male">Male</label>
+        <input type="radio" name="gender" value="female" />
+        <label class="light" for="female">female</label>
+      </div>
+      <br />
+      <label for="sub">Subscription Type:</label>
+      <br />
+      <br />
+      <select id="sub">
+        <option value="Monthly">Monthly</option>
+        <option value="Yearly">Yearly</option>
+        <option value="Forever">Forever</option>
+      </select>
+      <br />
+      <br />
+      <input type="submit" name=" Submit" value="Submit " />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+form {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+label {
+  text-align: left;
+  font-size: 25px;
+}
+input {
+  text-align: left;
+  font-size: 25px;
+  size: 25px;
+  width: 300px;
+  height: 25px;
+}
+
+input[type="radio"] {
+  width: 25px;
+  height: 25px;
+}
+
+select {
+  font-size: 25px;
+}
+
+input[type="submit"] {
+  text-align: center;
+  height: 35px;
+  width: 100px;
+}
+
+.navbar {
+  display: flex;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.navbar > div {
+  margin-left: auto;
+}
+
+.navbar .logo1 {
+  width: 35px;
+  height: 35px;
+}
+
+.navbar .logo2 {
+  width: 35px;
+  height: 35px;
+}
+
+.navbar .logo3 {
+  width: 35px;
+  height: 35px;
+}
+
+.logo1:hover {
+  transform: scale(3);
+}
+.logo2:hover {
+  transform: scale(3);
+}
+.logo3:hover {
+  transform: scale(3);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 50px;
+  padding-top: 3px;
+  padding-right: 10px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+body {
+  background-image: url("./assets/subscribe_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+}
