@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="stylesheets/register.css">
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="img/LOGO FIX.png" alt="logo" id="logo-navbar">
+                </a>
+            </div>
+        </div>
+        
+        <div class="dropdown">
+            <img src="img/DropDownMenu_Button.png" id="dropdown-icon">
+            <div class="dropdown-menu">
+                <a href="index.html">Home</a>
+                <a href="register.html">Register</a>
+                <a href="shop-skin-care.html">Shop Skin Care</a>
+                <a href="shop-make-up.html">Shop Make Up</a>
+                <a href="promotion.html">Promotion</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-container">
+        <div class="form-bg">
+            <form id="form" method="GET" onsubmit="">
+                Name : <br>
+                <input type="Name" name="cName" id="fName"><br>
+                Email :  <br>
+                <input type="email" name="cEmail" id="fEmail"><br>
+                Password : <br>
+                <input type="password" name="CPassword" id="fPassword"><br>
+                Confirm Password : <br>
+                <input type="password" name="CConfirmPassword" id="fConfirmPassword"><br>
+                Address : <br>
+                <input type="text" name="cAddress" id="fAddress"><br>
+                Gender : <br>
+                <div class="gender-choice">
+                    <label>
+                        <input type="radio" name="cGender" value="male" class="fGender" id="genm"> Male
+                    </label>
+                    <br>
+                    <label > 
+                        <input type="radio" name="cGender" value="female" class="fGender" id="genf"> Female 
+                    </label>
+                </div>
+                <br>
+                Skin Type : 
+                <select name="SkinType" id="selectskin">
+                    <option value="Normal" label="Normal">Normal</option>
+                    <option value="Dry" label="Dry">Dry</option>
+                    <option value="Oily" label="Oily">Oily</option>
+					<option value="Combination" label="Combination">Combination</option>
+                </select>
+                <div class="agreetoc">
+                    <br><br><br>
+                    <label>
+                        <input type="checkbox" id="agree"> By clicking this checkbox, you agree to Terms of Services by XtreamChaser
+                    </label>
+                </div>
+
+                <div class="submitbtncon">
+                    <button onclick="validateform(document.getElementById('form'));" id="submitbtn" >Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts/register.js"></script>
+</body>
+</html>

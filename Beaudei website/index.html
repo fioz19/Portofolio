@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="stylesheets/index.css">
+        <script src="lib/jquery-3.5.1.js"></script>
+       
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="img/LOGO FIX.png" alt="logo" id="logo-navbar">
+                </a>
+            </div>
+        </div>
+        
+        <div class="dropdown">
+            <img src="img/DropDownMenu_Button.png" id="dropdown-icon">
+            <div class="dropdown-menu">
+                <a href="index.html">Home</a>
+                <a href="register.html">Register</a>
+                <a href="shop-skin-care.html">Shop Skin Care</a>
+                <a href="shop-make-up.html">Shop Make Up</a>
+                <a href="promotion.html">Promotion</a>
+            </div>
+        </div>
+    </div>
+
+   <div class="image-container">
+        <div class="slide">
+            <img src="img/slider/offers.png" alt="">
+        </div>
+
+        <div class="slide">
+            <img src="img/slider/PROMOTION 1.png" alt="">
+        </div>
+
+        <div class="slide">
+            <img src="img/slider/just arrived.png" alt="">
+        </div>
+
+        <a class="previous" onclick="moveSlides(-1)"> 
+            <img src="img/slider/kiri.png" alt="">
+        </a> 
+
+        <a class="next" onclick="moveSlides(1)"> 
+            <img src="img/slider/kanan.png" alt="">
+        </a> 
+   </div>
+
+   <div style="text-align:center"> 
+        <span class="footerdot" 
+            onclick="activeSlide(1)"> 
+        </span> 
+
+        <span class="footerdot"
+            onclick="activeSlide(2)"> 
+        </span> 
+
+        <span class="footerdot" 
+            onclick="activeSlide(3)"> 
+        </span> 
+    </div> 
+    
+    <div>
+        <div class="under-slider">
+            <img src="img/home/reccomendation.jpg" alt="">
+        </div>
+
+        <div class="under-slider">
+            <img src="img/home/best seller page.jpg" alt="">
+        </div>
+    </div>
+    <script src="scripts/slider.js"></script>
+    
+</body>
+</html>

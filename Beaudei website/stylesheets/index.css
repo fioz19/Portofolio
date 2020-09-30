@@ -1,0 +1,171 @@
+body{
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    z-index: 2;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+#logo-navbar{
+    width: 150px;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    display: block;
+    margin: auto;
+}
+
+
+
+.dropdown{
+    position: absolute;
+}
+
+.menu-btn{
+    margin: 40px 0 0 20px;
+    background-color: hotpink;
+    border: 0;
+    width: 200px;
+    height: 40px;
+}
+
+.dropdown-menu{
+    display: none;
+    margin: auto;
+    text-align: center;
+    background-color:white;
+    width: 200px;
+    margin-left: 0px;
+    margin-top: -4px;
+}
+
+.dropdown-menu a{
+    display: block;
+    text-decoration: none;
+    color: hotpink;
+    z-index: 2;
+    border: 10px solid white;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+#dropdown-icon{
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
+}
+
+img { 
+    width: 100%; 
+} 
+.height { 
+    height: 10px; 
+} 
+       
+/* Image-container design */
+.image-container { 
+    max-width: 1000px; 
+    position: relative; 
+    margin: auto; 
+    top: 100px;
+} 
+       
+.next { 
+    right: 0; 
+} 
+       
+/* Next and previous icon design */
+.previous, 
+.next { 
+    cursor: pointer; 
+    position: absolute; 
+    top: 50%; 
+    padding: 10px; 
+    margin-top: -25px;
+    width: 50px;
+    height: 50px;
+
+} 
+       
+/* caption decorate */
+.captionText { 
+    color: #000000; 
+    font-size: 14px; 
+    position: absolute; 
+    padding: 12px 12px; 
+    bottom: 8px; 
+    width: 100%; 
+    text-align: center; 
+} 
+
+       
+ /* Slider image number */
+.slideNumber { 
+    background-color: #5574C5; 
+    color: white; 
+    border-radius: 25px; 
+    right: 0; 
+    opacity: .5; 
+    margin: 5px; 
+    width: 30px; 
+    height: 30px; 
+    text-align: center; 
+    font-weight: bold; 
+    font-size: 24px; 
+    position: absolute; 
+} 
+.fa { 
+    font-size: 32px; 
+} 
+       
+.fa:hover { 
+    transform: rotate(360deg); 
+    transition: 1s; 
+    color: white; 
+} 
+       
+.footerdot { 
+    cursor: pointer; 
+    height: 15px; 
+    width: 15px; 
+    margin: 0 2px; 
+    background-color: #bbbbbb; 
+    border-radius: 50%; 
+    display: inline-block; 
+    transition: background-color 0.5s ease; 
+    position: relative;
+    top: 100px;
+}
+
+
+.active, 
+.footerdot:hover { 
+    background-color: black; 
+}
+
+.image-container > a > i{
+    z-index: 99;
+}
+
+.under-slider{
+    width: 1000px;
+    margin: auto;
+    margin-top: 200px;
+}
